@@ -1,7 +1,8 @@
+import { RegistrationPageUI } from "@/fsd/pages/RegistrationPage";
 import { FC } from "react";
 
 const RegistrationPage: FC = () => {
-  return <div>test registration page</div>;
+  return <RegistrationPageUI />;
 };
 
 export default RegistrationPage;

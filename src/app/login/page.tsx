@@ -1,7 +1,8 @@
+import { LoginFormUI } from "@/fsd/pages/LoginPage";
 import { FC } from "react";
 
 const LoginPage: FC = () => {
-  return <div>LoginPage</div>;
+  return <LoginFormUI />;
 };
 
 export default LoginPage;
